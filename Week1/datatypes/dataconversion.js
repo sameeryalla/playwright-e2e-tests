@@ -13,3 +13,5 @@ console.log(parseInt(val2)); //5
 let val3=49494;
 strval3=val3.toString();
 console.log(`${strval3} datatype is ${typeof(strval3)}`);
+
+console.log(strval3.length); //5
