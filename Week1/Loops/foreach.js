@@ -9,3 +9,7 @@ windows.forEach((val,index,arr)=>{
     console.log(index);
     console.log(arr);
 })
+
+windows.forEach((val)=>{
+    console.log(val);
+})
