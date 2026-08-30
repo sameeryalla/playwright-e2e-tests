@@ -11,7 +11,11 @@
   "author": "Sameer Yalla",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": 
+  {
+    "demo":"npx playwright test /tests/demo/demotest.spec.ts --headed",
+    "login":"npx playwright test /tests/functional/login.spec.ts --headed"
+  },
   "devDependencies": {
     "@playwright/test": "^1.62.1",
     "@types/node": "^26.2.0"
