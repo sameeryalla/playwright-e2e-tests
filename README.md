@@ -3,6 +3,8 @@
     - `npm init playwright@latest`
 2. Check if installed correctly
     - `npx playwright --help`
+3. Codgen will help to generate initial code
+    - 'npx playwright codegen https://www.saucedemo.com'
 
 
 #after installtion below notes 
